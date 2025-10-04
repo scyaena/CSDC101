@@ -1,19 +1,19 @@
 Problem 1: Basic Pricing Decision
 
-Problem:
-You sell one cup of lemonade for $1. If a customer has $1 or more, they can buy a cup.
+#include <iostream>
+using namespace std;
 
-Task:
-Write a program that:
-Ask the user how much money they have.
-Uses an if statement to determine if they can buy lemonade.
+int main() {
+    int money;
 
-Outputs:
-"Enjoy your lemonade!" if they have $1 or more.
-"Sorry, you need more money." otherwise.
+    cout << "Enter your money: ";
+    cin >> money;
 
-Sample Input:
-Enter your money: 0.75
+    if (money >= 1.0) {
+        cout << "Enjoy your lemonade!" << endl;
+    } else {
+        cout << "Sorry, you need more money." << endl;
+    }
 
-Sample Output:
-Sorry, you need more money.
+    return 0;
+}
