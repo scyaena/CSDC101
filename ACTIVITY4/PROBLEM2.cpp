@@ -13,4 +13,5 @@ int main() {
         cout << "Lemonade costs $1.00 today." << endl;
     }
 
-    return 
+    return 0;
+}
