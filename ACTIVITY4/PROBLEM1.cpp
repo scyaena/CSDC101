@@ -1,5 +1,3 @@
-Problem 1: Basic Pricing Decision
-
 #include <iostream>
 using namespace std;
 
