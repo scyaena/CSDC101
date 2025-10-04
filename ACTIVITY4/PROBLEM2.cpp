@@ -1,20 +1,16 @@
-Problem 2: Weather-Based Discounts
+#include <iostream>
+using namespace std;
 
-Problem:
-You want to attract more customers. If it’s hot (temperature is 30°C or more), offer a 20% discount.
+int main() {
+    int temperature;
 
-Task:
-Write a program that:
-Ask for the temperature.
+    cout << "Enter today's temperature in Celsius: ";
+    cin >> temperature;
 
-Sets the price to:
-$0.80 if temperature >= 30
-$1.00 otherwise
-Outputs the final price.
+    if (temperature >= 30) {
+        cout << "It's hot! Lemonade costs $0.80 today." << endl;
+    } else {
+        cout << "Lemonade costs $1.00 today." << endl;
+    }
 
-Sample Input:
-Enter today's temperature in Celsius: 32
-
-Sample Output:
-
-It's hot! Lemonade costs $0.80 today.
+    return 
