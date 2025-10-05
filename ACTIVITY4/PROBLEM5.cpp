@@ -17,8 +17,9 @@ int main() {
     else if (move == 'D' || move == 'd')
         x += 1;
     else
-        cout << "Invalid key!" << endl;
+        cout << "Invalid key" << endl;
 
-    cout << "The location of the player is (" << x << ", " << y << ")" << endl;
+    cout << "The location of the player is " << x << ", " << y << " " << endl;
+    
     return 0;
 }
