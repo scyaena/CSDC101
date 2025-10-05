@@ -1,21 +1,21 @@
 #include <iostream>
 using namespace std;
 
-int main() {
+int main() { // starting position of the player
     int x = 0, y = 0;
-    char move;
+    char move; // to store the movement key
 
-    cout << "Enter movement key (W/A/S/D): ";
+    cout << "Enter movement key (W/A/S/D): "; // ask the user for movement input
     cin >> move;
 
-    if (move == 'W' || move == 'w')
-        y += 1;
-    else if (move == 'S' || move == 's')
-        y -= 1;
+    if (move == 'W' || move == 'w') // Check which key is pressed and move accordingly
+        y += 1; // move up
+    else if (move == 'S' || move == 's') 
+        y -= 1; // move down
     else if (move == 'A' || move == 'a')
-        x -= 1;
+        x -= 1; // move left
     else if (move == 'D' || move == 'd')
-        x += 1;
+        x += 1; // move right
     else
         cout << "Invalid key" << endl;
 
